@@ -1,0 +1,1 @@
+cmd_/home/wzf/courses/linux-kernel/module2/module2.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id=sha1  -T ./scripts/module-common.lds -o /home/wzf/courses/linux-kernel/module2/module2.ko /home/wzf/courses/linux-kernel/module2/module2.o /home/wzf/courses/linux-kernel/module2/module2.mod.o;  true
