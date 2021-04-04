@@ -1,0 +1,1 @@
+cmd_/home/wzf/courses/linux-kernel/module1/Module.symvers := sed 's/ko$$/o/' /home/wzf/courses/linux-kernel/module1/modules.order | scripts/mod/modpost -m -a   -o /home/wzf/courses/linux-kernel/module1/Module.symvers -e -i Module.symvers   -T -
